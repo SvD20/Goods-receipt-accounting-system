@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.bsuir.controllers.ReadTasksController">
+   <left>
+      <AnchorPane prefHeight="410.0" prefWidth="809.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="335.0" layoutY="32.0" text="Work with tasks">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TableView fx:id="table_for_tasks" layoutX="114.0" layoutY="102.0" prefHeight="184.0" prefWidth="581.0">
+              <columns>
+                <TableColumn fx:id="column_date" prefWidth="189.60003662109375" text="date" />
+                <TableColumn fx:id="column_type" prefWidth="192.79998779296875" text="type" />
+                  <TableColumn fx:id="column_state" prefWidth="197.0" text="state" />
+              </columns>
+            </TableView>
+            <Button fx:id="back" layoutX="352.0" layoutY="340.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="107.0" text="Back" />
+            <Button fx:id="display_button" layoutX="352.0" layoutY="299.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="107.0" text="Display" />
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>
