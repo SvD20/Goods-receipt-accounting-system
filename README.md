@@ -1,4 +1,4 @@
-# SvD2Goods-receipt-accounting-system
+# Goods-receipt-accounting-system
 
 Клиент-серверное приложение. Клиент и сервер общаются через сокеты по протоколу TCP. 
 Приложение предназначено для учета поступлений товаров на склад. Применены технологии JavaFX и Hibernate.
